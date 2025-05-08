@@ -7,8 +7,6 @@ def binomial(n,m):
     else:
         return binomial(n-1,m-1) + binomial(n-1, m)
 
-
-
 if __name__ == '__main__':
     print(binomial(5,3))
-    print(scipy.special.binom(5,3))
+    #print(scipy.special.binom(5,3)) #questo metodo fa proprio quello che abbiamo crato noi

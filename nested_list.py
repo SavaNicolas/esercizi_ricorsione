@@ -1,7 +1,7 @@
 def count_leaf_nodes(input_list):
     if len(input_list) == 0:
         return 0
-    else:
+    else: #LISTA DI n elementi
         counter = 0
         for element in input_list:
             if type(element) == list:
